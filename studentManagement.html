@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -54,8 +54,8 @@
             }
         }
         //Delete Student 
-        function deleteStudent(id) {
-            let studentID = students.findIndex(s => s.id == id);
+        function deleteStudent(deleteId) {
+            let studentID = students.findIndex(s => s.id == deleteId);
             if (studentID == -1) {
                 alert("Record not Found!!!")
                 return;
@@ -65,8 +65,8 @@
             }
         }
         //Search Student
-        function searchStudent(id) {
-            let student = students.find(s => s.id == id);
+        function searchStudent(searchId) {
+            let student = students.find(s => s.id == searchId);
             if (!student) {
                 alert("Record not Found!!!")
                 return;
@@ -118,6 +118,6 @@
     </script>
 </body>
 
-</html> -->
+</html> 
 
-<!-- //syntax refer by google and help with balamurugan -->
+<!-- //syntax refer by google and help with balamurugan
