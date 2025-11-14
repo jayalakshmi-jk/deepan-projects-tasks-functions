@@ -1,1 +1,1 @@
-# deepan-projects-tasks-functions
+# JS-Tasks
